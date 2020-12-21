@@ -1,0 +1,20 @@
+.70543-0004 :1 ;MOLEX - 70543-0004 - HEADER, 2.54MM, 5WAY
+SHDR5W109P0X254_1X5_1525X660X1143P
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5"
+*MXP 5
+*DFN 70543-0004
+~!Manufacturer_Name (Molex)
+~!Manufacturer_Part_Number (70543-0004)
+~!Mouser Part Number (538-70543-0004)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Molex/70543-0004?qs=ZwgtpdmWYYQRmWofVdhxiw%3D%3D)
+~!RS Part Number (6792480P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/6792480P)
+~!Allied_Number (70190952)
+~!Link Allied Price/Stock (https://www.alliedelec.com/molexincorporated-70543-0004/70190952/)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/70543-0004.pdf)
+~!Height (11.43mm)
+~!3D_Model (70543-0004)
+"70543-0004"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

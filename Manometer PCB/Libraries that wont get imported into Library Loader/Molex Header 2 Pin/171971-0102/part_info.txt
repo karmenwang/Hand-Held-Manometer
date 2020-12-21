@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=171971-0102
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2019-09-30 11:19:54
+Downloaded=2020-05-26 00:15:36
+3D=N

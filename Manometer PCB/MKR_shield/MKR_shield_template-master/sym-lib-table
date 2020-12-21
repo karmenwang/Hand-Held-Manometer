@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 171971-0102)(type Legacy)(uri "C:/Users/karme/Documents/Karmen Pantheon Projects/Manometer/Manometer PCB/Libraries that wont get imported into Library Loader/Molex Header 2 Pin/171971-0102/KiCad/171971-0102.lib")(options "")(descr ""))
+  (lib (name MKRShield_v1-rescue)(type Legacy)(uri ${KIPRJMOD}/MKRShield_v1-rescue.lib)(options "")(descr ""))
+)

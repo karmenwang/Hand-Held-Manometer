@@ -1,0 +1,133 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "171971-0102"
+   (description "2.54mm Pitch SL Header, Single Row, Vertical, LCP, Shrouded, Through Hole, 0.38m Selective Gold (Au) Plating, 02 Circuits")
+   (family "ANA")
+   (package "1719710102")
+   (attribute "Datasheet Link" "https://www.molex.com/pdm_docs/sd/1719710102_sd.pdf")
+   (attribute "Geometry.Height" "12.16mm")
+   (attribute "Manufacturer_Name" "Molex")
+   (attribute "Manufacturer_Part_Number" "171971-0102")
+   (attribute "Mouser Part Number" "538-171971-0102")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/171971-0102?qs=lc2O%252BfHJPVbT9FZNghdDGA%3D%3D")
+   (attribute "RS Part Number" "")
+   (attribute "RS Price/Stock" "")
+   (gate
+    (symbol "171971-0102")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "171971-0102"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "1719710102"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -4.96 2.55)
+      (pt 2.42 2.55)
+      (pt 2.42 -2.55)
+      (pt -4.96 -2.55)
+      (pt -4.96 2.55))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.96 2.55)
+      (pt 2.42 2.55)
+      (pt 2.42 -2.55)
+      (pt -4.96 -2.55)
+      (pt -4.96 2.55))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.96 5)
+      (pt 4.03 5)
+      (pt 4.03 -3.55)
+      (pt -5.96 -3.55)
+      (pt -5.96 5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.96 5)
+      (pt 4.03 5)
+      (pt 4.03 -3.55)
+      (pt -5.96 -3.55)
+      (pt -5.96 5))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.77 2.5)
+      (pt -3.77 4)
+      (pt 1.23 4)
+      (pt 1.23 2.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 2.93 -0.3)
+      (arc (pt 2.930 -0.300) (pt 2.930 -0.350) (pt 3.030 -0.250) (start 180.0) (sweep 180.0))
+      (pt 3.03 -0.3)
+      (arc (pt 3.030 -0.300) (pt 2.930 -0.350) (pt 3.030 -0.250) (start 180.0) (sweep .0))
+      (pt 2.93 -0.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.77 2.55)
+      (pt -3.77 4)
+      (pt 1.23 4)
+      (pt 1.23 2.55))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt -2.540 0.000) (padstack 0))
+   (padstack 0
+    (hole 1.17)
+    (plated true)
+    (pad (layer TCOP) (round 1.755))
+    (pad (layer INNER) (round 1.755))
+    (pad (layer BCOP) (round 1.755))
+   )
+  )
+ )
+)

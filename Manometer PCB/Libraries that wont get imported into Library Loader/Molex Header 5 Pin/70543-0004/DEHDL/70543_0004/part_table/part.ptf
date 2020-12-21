@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '70543_0004'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "ALLIED_NUMBER", "ALLIED_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "70543-0004" (!) = "", "SHDR5W109P0X254_1X5_1525X660X1143P", "Header, Shrouded", "538-70543-0004", "https://www.mouser.co.uk/ProductDetail/Molex/70543-0004?qs=ZwgtpdmWYYQRmWofVdhxiw%3D%3D", "6792480P", "http://uk.rs-online.com/web/p/products/6792480P", "70190952", "https://www.alliedelec.com/molexincorporated-70543-0004/70190952/", "MOLEX - 70543-0004 - HEADER, 2.54MM, 5WAY", "https://componentsearchengine.com/Datasheets/2/70543-0004.pdf", "11.43 mm"
+END_PART
+
+END.

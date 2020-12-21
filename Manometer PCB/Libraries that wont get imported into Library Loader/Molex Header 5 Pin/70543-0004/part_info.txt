@@ -1,0 +1,9 @@
+Manufacturer=Molex
+PartNumber=70543-0004
+PartCategory=Connector
+PackageCategory=Header, Shrouded
+PinCount=5
+Version=4.1
+Released=2017-12-15 21:48:58
+Downloaded=2020-05-25 23:50:39
+3D=Y

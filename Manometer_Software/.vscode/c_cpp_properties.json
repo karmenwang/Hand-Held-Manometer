@@ -1,0 +1,78 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "c:/Users/karme/Documents/Karmen_Pantheon_Projects/Manometer/Manometer_Software/include",
+                "c:/Users/karme/Documents/Karmen_Pantheon_Projects/Manometer/Manometer_Software/src",
+                "c:/Users/karme/Documents/Karmen_Pantheon_Projects/Manometer/Manometer_Software/lib/LCD5110_Graph",
+                "c:/Users/karme/Documents/Karmen_Pantheon_Projects/Manometer/Manometer_Software/lib/AllSensors_DLHR/src",
+                "C:/Users/karme/.platformio/packages/framework-arduino-samd/libraries/Wire",
+                "C:/Users/karme/.platformio/packages/framework-arduino-samd/cores/arduino",
+                "C:/Users/karme/.platformio/packages/framework-cmsis/CMSIS/Include",
+                "C:/Users/karme/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                "C:/Users/karme/.platformio/packages/framework-arduino-samd/variants/mkrzero",
+                "C:/Users/karme/.platformio/packages/framework-arduino-samd/libraries/HID",
+                "C:/Users/karme/.platformio/packages/framework-arduino-samd/libraries/I2S/src",
+                "C:/Users/karme/.platformio/packages/framework-arduino-samd/libraries/SAMD_AnalogCorrection/src",
+                "C:/Users/karme/.platformio/packages/framework-arduino-samd/libraries/SAMD_BootloaderUpdater/src",
+                "C:/Users/karme/.platformio/packages/framework-arduino-samd/libraries/SDU/src",
+                "C:/Users/karme/.platformio/packages/framework-arduino-samd/libraries/SPI",
+                "C:/Users/karme/.platformio/packages/framework-arduino-samd/libraries/USBHost/src",
+                "C:/Users/karme/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/karme/Documents/Karmen_Pantheon_Projects/Manometer/Manometer_Software/include",
+                    "c:/Users/karme/Documents/Karmen_Pantheon_Projects/Manometer/Manometer_Software/src",
+                    "c:/Users/karme/Documents/Karmen_Pantheon_Projects/Manometer/Manometer_Software/lib/LCD5110_Graph",
+                    "c:/Users/karme/Documents/Karmen_Pantheon_Projects/Manometer/Manometer_Software/lib/AllSensors_DLHR/src",
+                    "C:/Users/karme/.platformio/packages/framework-arduino-samd/libraries/Wire",
+                    "C:/Users/karme/.platformio/packages/framework-arduino-samd/cores/arduino",
+                    "C:/Users/karme/.platformio/packages/framework-cmsis/CMSIS/Include",
+                    "C:/Users/karme/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                    "C:/Users/karme/.platformio/packages/framework-arduino-samd/variants/mkrzero",
+                    "C:/Users/karme/.platformio/packages/framework-arduino-samd/libraries/HID",
+                    "C:/Users/karme/.platformio/packages/framework-arduino-samd/libraries/I2S/src",
+                    "C:/Users/karme/.platformio/packages/framework-arduino-samd/libraries/SAMD_AnalogCorrection/src",
+                    "C:/Users/karme/.platformio/packages/framework-arduino-samd/libraries/SAMD_BootloaderUpdater/src",
+                    "C:/Users/karme/.platformio/packages/framework-arduino-samd/libraries/SDU/src",
+                    "C:/Users/karme/.platformio/packages/framework-arduino-samd/libraries/SPI",
+                    "C:/Users/karme/.platformio/packages/framework-arduino-samd/libraries/USBHost/src",
+                    "C:/Users/karme/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=40304",
+                "ARDUINO_SAMD_MKRZERO",
+                "ARDUINO_ARCH_SAMD",
+                "__SAMD21G18A__",
+                "USE_ARDUINO_MKR_PIN_LAYOUT",
+                "ARDUINO=10805",
+                "F_CPU=48000000L",
+                "USBCON",
+                "USB_VID=0x2341",
+                "USB_PID=0x804F",
+                "USB_PRODUCT=\"Arduino MKRZERO\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/karme/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mcpu=cortex-m0plus",
+                "-mthumb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

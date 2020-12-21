@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_1820140"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-09-30-11:19:54)
+    (utime 2019-10-01-07:10:00)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "171971-0102")
+)
+
+
+(pinAssign "ECS_1820140"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-09-30-11:19:54)
+    (utime 2019-10-01-07:10:00)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1820140")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "171971-0102")
+)
+
+
+(part "171971-0102"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-09-30-11:19:54)
+    (utime 2019-10-01-07:10:00)
+    (packageRef "171971-0102")
+    (pinAssignRef "ECS_1820140")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "IC")
+    (property "description" "2.54mm Pitch SL Header, Single Row, Vertical, LCP, Shrouded, Through Hole, 0.38m Selective Gold (Au) Plating, 02 Circuits")
+    (property "Manufacturer_Name" "Molex")
+    (property "Manufacturer_Part_Number" "171971-0102")
+    (property "Mouser_Part_Number" "538-171971-0102")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/171971-0102?qs=lc2O%252BfHJPVbT9FZNghdDGA%3D%3D")
+    (property "RS_Part_Number" "")
+    (property "RS_Price/Stock" "")
+    (property "Datasheet_Link" "https://www.molex.com/pdm_docs/sd/1719710102_sd.pdf")
+    (property "compAreaTopHeight" 12.16)
+)
+
+
